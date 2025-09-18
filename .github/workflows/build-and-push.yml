@@ -9,7 +9,7 @@ env:
   AWS_REGION: ${{ secrets.AWS_REGION }}
   ECR_REGISTRY: ${{ secrets.ECR_REGISTRY }}
   ECR_REPOSITORY: ${{ secrets.ECR_REPOSITORY }}
-  IMAGE_TAG: v1.0              # change to v2.0 later when you want a new version
+  IMAGE_TAG: v2.0              # change to v2.0 later when you want a new version
 
 jobs:
   build-and-push:
