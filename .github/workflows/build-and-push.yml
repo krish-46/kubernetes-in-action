@@ -2,7 +2,7 @@ name: Build and Push to ECR
 
 on:
   push:
-    branches: [ "main" ]       # run automatically on pushes to main
+    branches: [ "master" ]       # run automatically on pushes to main
   workflow_dispatch:            # allow manual runs from the Actions tab
 
 env:
